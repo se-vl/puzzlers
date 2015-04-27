@@ -7,6 +7,7 @@ class Counter
     public Counter(int initialValue)
     {
         _value = initialValue;
+        System.out.println("initialized " + this + " successfully.");
     }
 
     public void increment()

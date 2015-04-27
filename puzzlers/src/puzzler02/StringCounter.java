@@ -2,7 +2,7 @@ package puzzler02;
 
 class StringCounter extends Counter
 {
-    private String _string;
+    private final String _string;
 
     public StringCounter(String string)
     {
